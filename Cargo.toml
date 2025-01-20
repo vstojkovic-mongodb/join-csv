@@ -1,0 +1,11 @@
+[package]
+name = "join-csv"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+csv = "1"
+indexmap = { version = "2", features = ["serde"] }
+serde = { version = "1", features = ["derive"] }
+serde_yaml = "0.9.34"
